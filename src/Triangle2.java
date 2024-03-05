@@ -16,13 +16,13 @@ public class Triangle2 {
         return perimeter;
     }
 
-    // public boolean samePosition(Triangle2 other) {
-    //     for (int i = 0; i < this.points.length; i++) {
-    //         if (!this.points[i].equals(other.points[i])) {
-    //             return false;
-    //         }
-    //     }
-    //     return true;
-    // }
+    public boolean samePosition(Triangle2 other) {
+        for (int i = 0; i < this.points.length; i++) {
+            if (!this.points[i].equals(other.points[i])) {
+                return false;
+            }
+        }
+        return true;
+    }
     
 }
